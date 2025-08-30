@@ -84,6 +84,33 @@ The world file `custom_obstacle_world.world` includes:
    ros2 run teleop_twist_keyboard teleop_twist_keyboard
    ```
 
+### **Default Keyboard Controls (`teleop_twist_keyboard`)**
+
+* **Movement:**
+
+  * `i` → move forward
+  * `,` → move backward
+  * `j` → turn left
+  * `l` → turn right
+  * `u` → move forward-left (diagonal)
+  * `o` → move forward-right
+  * `m` → move backward-left
+  * `.` → move backward-right
+
+* **Stop:**
+
+  * `k` → stop
+
+* **Speed Adjustments:**
+
+  * `q` → increase linear speed
+  * `z` → decrease linear speed
+  * `w` → increase angular speed
+  * `x` → decrease angular speed
+
+* **Exit:**
+
+  * `CTRL+C` → quit the node
 
 ---
 
