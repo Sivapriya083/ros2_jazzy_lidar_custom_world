@@ -72,7 +72,7 @@ The world file `custom_obstacle_world.world` includes:
    ```bash
    rviz2
    ```
- ![]()
+ ![](https://github.com/Sivapriya083/ros2_jazzy_lidar_custom_world/blob/main/rviz2.png?raw=true)
  
    * Add **LaserScan** display.
    * Set topic: `/scan`.
