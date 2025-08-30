@@ -32,7 +32,7 @@ This project extends the **TortoiseBot Gazebo** package by adding a **custom Gaz
 2. Clone this repository:
 
    ```bash
-   git clone https://github.com/your_username/ros2_jazzy_lidar_world.git
+   git clone https://github.com/sivapriya083/ros2_jazzy_lidar_world.git
    ```
 
 3. Build the workspace:
@@ -64,8 +64,7 @@ The world file `custom_obstacle_world.world` includes:
    ```bash
    ros2 launch tortoisebot_gazebo custom_obstacle_world.launch.py
   ```
-![](https://github.com/Sivapriya083/ros2_jazzy_lidar_custom_world/blob/main/ostacle_launch.png?raw=true)
-
+ 
  
 2. Open RViz2 to visualize `/scan`:
 
@@ -104,4 +103,4 @@ MIT License
 
 
 
-```
+
