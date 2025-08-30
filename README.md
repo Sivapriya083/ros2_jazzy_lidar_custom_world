@@ -64,7 +64,7 @@ The world file `custom_obstacle_world.world` includes:
    ```bash
    ros2 launch tortoisebot_gazebo custom_obstacle_world.launch.py
   ```
-![]()
+![](https://github.com/Sivapriya083/ros2_jazzy_lidar_custom_world/blob/main/ostacle_launch.png?raw=true)
 
  
 2. Open RViz2 to visualize `/scan`:
@@ -100,8 +100,8 @@ The world file `custom_obstacle_world.world` includes:
 
 MIT License
 
-```
 
----
+
+
 
 ```
