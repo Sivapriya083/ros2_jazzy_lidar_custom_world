@@ -17,7 +17,7 @@ This project extends the **TortoiseBot Gazebo** package by adding a **custom Gaz
 - **Ubuntu 24.04**  
 - **ROS 2 Jazzy**  
 - **Gazebo Harmonic**  
-- RViz2  
+- **RViz2**  
 
 ---
 
@@ -49,47 +49,11 @@ This project extends the **TortoiseBot Gazebo** package by adding a **custom Gaz
 
 The world file `custom_obstacle_world.world` includes:
 
-* 4 boxes (randomly placed)
-* 3 cylinders
-* 2 short walls
-* 1 tall wall
+* boxes (randomly placed)
+* cylinders
+* Sphere
+* tall walls
 
-This ensures varied obstacle layouts for testing.
-
----
-
-##  LIDAR Plugin in URDF
-
-The TortoiseBot URDF includes a **Gazebo Ray Sensor Plugin** simulating a 2D LIDAR. Example snippet inside URDF:
-
-```xml
-<gazebo>
-  <sensor type="ray" name="lidar">
-    <update_rate>10</update_rate>
-    <ray>
-      <scan>
-        <horizontal>
-          <samples>360</samples>
-          <resolution>1</resolution>
-          <min_angle>-3.14</min_angle>
-          <max_angle>3.14</max_angle>
-        </horizontal>
-      </scan>
-      <range>
-        <min>0.12</min>
-        <max>12.0</max>
-        <resolution>0.01</resolution>
-      </range>
-    </ray>
-    <plugin name="gazebo_ros_laser_controller" filename="libgazebo_ros_laser.so">
-      <ros>
-        <namespace>/</namespace>
-        <remapping>~/out:=scan</remapping>
-      </ros>
-    </plugin>
-  </sensor>
-</gazebo>
-```
 
 ---
 
