@@ -61,10 +61,11 @@ The world file `custom_obstacle_world.world` includes:
 
 1. Launch the world with TortoiseBot:
 
-   ```bash
+ ```bash
    ros2 launch tortoisebot_gazebo custom_obstacle_world.launch.py
   ```
  
+   ![](https://github.com/Sivapriya083/ros2_jazzy_lidar_custom_world/blob/1504bb005660976f151421bd02350c0d77eae133/ostacle_launch.png)
  
 2. Open RViz2 to visualize `/scan`:
 
